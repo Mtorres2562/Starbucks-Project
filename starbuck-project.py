@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-star = pd.read_csv('C:/Users/mtorr/Documents/Coding-Temple/8-Module/Assignments/M8-Mini-Project-Starbucks-EDA/data/new_cleaned_dataset.csv')
+star = pd.read_csv('data/new_cleaned_dataset.csv')
 star = star.drop(columns=["Unnamed: 0"], errors="ignore")
 
 
